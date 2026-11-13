@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Minecraft Addons</title>
+
 <style>
 body {
   margin: 0;
@@ -13,44 +14,90 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
+
 header {
   padding: 45px 15px;
   background: #172b25;
 }
-h1 { font-size: 32px; }
+
+h1 {
+  font-size: 32px;
+}
+
 main {
   max-width: 600px;
   margin: 45px auto;
   padding: 20px;
 }
+
 .card {
   background: #1f2937;
   padding: 25px;
   border-radius: 15px;
 }
-.tag { color: #86efac; }
+
+.tag {
+  color: #86efac;
+  font-weight: bold;
+}
+
+.download-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 24px;
+  background: #22c55e;
+  color: #111827;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+
+.download-button:hover {
+  background: #86efac;
+}
+
 footer {
   color: #9ca3af;
   padding: 30px;
 }
 </style>
 </head>
+
 <body>
+
 <header>
   <h1>⛏ Minecraft Addons</h1>
   <p>Discover something new in Minecraft.</p>
 </header>
+
 <main>
   <div class="card">
+
     <p class="tag">OUR FIRST RELEASE</p>
-    <h2>Coming Soon!</h2>
-    <p>Our first Minecraft Bedrock addon is currently in development.</p>
-    <p>Stay tuned for the release!</p>
+
+    <h2>Bedrock Builder</h2>
+
+    <p>Version 1.0.0</p>
+
+    <p>
+      Build and create structures in Minecraft Bedrock!
+    </p>
+
+    <a
+      href="bedrockbuilder_1.0.0%20.mcaddon"
+      class="download-button"
+      download
+    >
+      Download Bedrock Builder
+    </a>
+
   </div>
 </main>
+
 <footer>
   Made for the Minecraft Bedrock community.
 </footer>
+
 </body>
 </html>
-
